@@ -1,0 +1,30 @@
+name: employee_management
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.1
+  sqlite3: ^2.1.0
+  sqlite3_flutter_libs: ^0.5.18
+  sqflite_common_ffi: ^2.3.0
+  path: ^1.8.3
+  intl: ^0.18.1
+  flutter_slidable: ^3.0.1
+  table_calendar: ^3.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
